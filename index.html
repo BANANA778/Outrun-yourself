@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outrun Yourself</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="homepage">
+    <h1>Outrun Yourself</h1>
+    <p>Compete against your past self to beat your own score!</p>
+    <div id="stats">
+      <h2>Benchmark Stats</h2>
+      <p>Time: <span id="benchmarkTime">-</span></p>
+      <p>Score: <span id="benchmarkScore">-</span></p>
+    </div>
+    <button id="startButton">Start New Game</button>
+  </div>
+
+  <!-- Game Canvas -->
+  <canvas id="gameCanvas"></canvas>
+
+  <button id="quitButton">Quit to Homepage</button>
+
+  <script src="Game.js"></script>
+</body>
+</html>
